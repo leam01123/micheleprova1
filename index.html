@@ -3,13 +3,15 @@
 	<head>
 	  <title> Michelle </title>
 	  <script type= "text/javascript">
+		  function controllo() {
 		  if (document.getElementById("password").value="michelle"){
 		  document.write("sei entrato nel sito");
+		  }
 		  }
 	  </script>
 	</head>
 	  <body>
-		  <style>
+	  <style>
 	   body {
 	    color:red;
 	   }
@@ -17,11 +19,9 @@
 	    <p> Ciao!!!! </p>
 	 <img src="http://www.laboratoriopesaro.com/wp-content/uploads/2017/03/Cuore-rosso.jpg" alt="ciao"/>
 	<p>metti la password:</p> 
-	<form>
+	<form onsubmit=contorollo() >
         <input id= "password" type="text" size="40" maxlenght="200" />
         <input type="submit">
         </form>
-        <a href="https://it.wikipedia.org/wiki/Pagina_principale"></a>
-	
         </body>
 	</html>
