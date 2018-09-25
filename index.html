@@ -3,7 +3,7 @@
 	<head>
 	  <title> Michelle </title>
 	  <script type= "text/javascript">
-		  if (document.getElementByName("password").value="michelle"){
+		  if (document.getElementById("password").value="michelle"){
 		  document.write("sei entrato nel sito")
 		  }
 	  </script>
@@ -17,8 +17,11 @@
 	    <p> Ciao!!!! </p>
 	 <img src="http://www.laboratoriopesaro.com/wp-content/uploads/2017/03/Cuore-rosso.jpg" alt="ciao"/>
 	<p>metti la password:</p> 
-	<input name= "password" type="text" size="40" maxlenght="200" />
+	<form>
+        <input id= "password" type="text" size="40" maxlenght="200" />
         <input type="submit">
+        </form>
         <a href="https://it.wikipedia.org/wiki/Pagina_principale"></a>
-	</body>
+	
+        </body>
 	</html>
